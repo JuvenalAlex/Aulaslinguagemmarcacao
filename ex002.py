@@ -1,6 +1,2 @@
-fim=int(input("Digite o valor final:"))
-inicio=0
-while(inicio<fim):
-    print('o valor de inicio e'+str(inicio))
-    inicio=inicio+1
-print('terminou')
+cadeia = input('Digite um texto:')
+print('texto sem o começo e o fim', cadeia[1:len(cadeia) - 1])
